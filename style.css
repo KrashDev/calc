@@ -1,9 +1,35 @@
 body {
-  background-image: url("images/gplaypattern.png");
+  /* background-image: url("images/gplaypattern.png"); */
   overflow-x: hidden;
+  background: #333333;
   /* overflow-y: hidden; */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
 }
 
 .jumbotron {
   font-size: 40px;
+}
+
+#calc {
+  background: linear-gradient(to right, #f79d00, #64f38c);
+  width: 500px;
+  height: 500px;
+  border-radius: 25px;
+}
+
+#output {
+  margin: 20px;
+  background: #ffffff;
+  height: 50px;
+  width: 400px;
+}
+
+button {
+  height: 50px;
+  width: 50px;
 }
